@@ -1,4 +1,4 @@
-package week1.day2;
+package week1.day2.assesment;
 
 import org.checkerframework.checker.units.qual.Length;
 

@@ -1,4 +1,4 @@
-package week1.day2;
+package week1.day2.assesment;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
