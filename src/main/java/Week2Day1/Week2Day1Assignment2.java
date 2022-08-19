@@ -1,4 +1,4 @@
-package Week2Day1;
+package week2Day1;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -19,10 +19,10 @@ public class Week2Day1Assignment2 {
 		    
 		    
 		    // 2. Enter UserName and Password Using Id Locator
-		    WebElement usernametextbox = driver.findElement(By.id("username"));
+		    WebElement usernametextbox = driver.findElement(By.xpath("//input[@id='username']"));
 		    usernametextbox.sendKeys("Demosalesmanager");
 		    
-		    WebElement passwordtextbox = driver.findElement(By.id("password"));
+		    WebElement passwordtextbox = driver.findElement(By.xpath("//input[@id='password']"));
 		    passwordtextbox.sendKeys("crmsfa");
 		    
 		    
@@ -40,16 +40,16 @@ public class Week2Day1Assignment2 {
 		    leadbutton.click();
 		    
 			//6. Click on Create Lead
-		    WebElement createleadbutton = driver.findElement(By.linkText("Create Lead"));
+		    WebElement createleadbutton = driver.findElement(By.xpath("//a[(text()='Create Lead')]"));
 		    createleadbutton.click();
 		    
 			//7. Enter CompanyName Field Using id Locator
-		    WebElement companynametextbox = driver.findElement(By.id("createLeadForm_companyName"));
+		    WebElement companynametextbox = driver.findElement(By.xpath("//input[@id='createLeadForm_companyName']"));
 		    companynametextbox.sendKeys("Testleaf");
 		    
 		    
 		   // 8. Enter FirstName Field Using id Locator
-		   WebElement firstnametextbox = driver.findElement(By.id("createLeadForm_firstName"));
+		   WebElement firstnametextbox = driver.findElement(By.xpath("(//input[@name='firstName'])[1]"));
 		   firstnametextbox.sendKeys("Sagayaranjith");
 		   
 		   
